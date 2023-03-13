@@ -34,7 +34,7 @@ public class SendMail {
         p.put("mail.smtp.host", "smtp.gmail.com");
         p.put("mail.smtp.port", "587");
         String username = "aswin96777@gmail.com";
-        String password  = "fjigkifsmunwxive";
+        String password  = "";
         Session s = Session.getInstance(p, new Authenticator(){
             protected PasswordAuthentication getPasswordAuthentication(){
                 return new PasswordAuthentication(username,password);
