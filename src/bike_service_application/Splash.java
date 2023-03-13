@@ -2,11 +2,13 @@
 package bike_service_application;
 
 public class Splash extends javax.swing.JFrame {
+    private javax.swing.JProgressBar Bar;
+    private javax.swing.JLabel ICON;
+    private javax.swing.JLabel TITLE;
+    private javax.swing.JPanel jPanel1;
     public Splash() {
         initComponents();
     }
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -21,12 +23,12 @@ public class Splash extends javax.swing.JFrame {
 
         Bar.setBackground(new java.awt.Color(204, 51, 0));
 
-        TITLE.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        TITLE.setFont(new java.awt.Font("Dialog", 1, 18)); 
         TITLE.setForeground(new java.awt.Color(0, 0, 0));
         TITLE.setText("WELCOME TO BIKE SERVICE CENTER");
 
         ICON.setForeground(java.awt.Color.white);
-        ICON.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bike_service_application/icons/loding.png"))); // NOI18N
+        ICON.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bike_service_application/icons/loding.png"))); 
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -66,7 +68,7 @@ public class Splash extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
     public static void main(String args[]) {
                Splash s =  new Splash();
                s.setVisible(true);
@@ -81,10 +83,6 @@ public class Splash extends javax.swing.JFrame {
               new Home().setVisible(true);
               s.dispose();
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JProgressBar Bar;
-    private javax.swing.JLabel ICON;
-    private javax.swing.JLabel TITLE;
-    private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+  
+  
 }
