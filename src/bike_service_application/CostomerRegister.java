@@ -3,12 +3,24 @@ package bike_service_application;
 import javax.swing.JOptionPane;
 
 public class CostomerRegister extends javax.swing.JFrame {
+    private javax.swing.JTextField CEmail;
+    private javax.swing.JTextField CMobile;
+    private javax.swing.JTextField CUserName;
+    private javax.swing.JPasswordField Cpassword;
+    private javax.swing.JButton Register;
+    private javax.swing.JButton Reset;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     public CostomerRegister() {
         initComponents();
     }
     private static int ID = 0;
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -33,7 +45,7 @@ public class CostomerRegister extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(204, 0, 0));
 
-        jLabel6.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Dialog", 1, 18)); 
         jLabel6.setText("BACK");
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -58,20 +70,20 @@ public class CostomerRegister extends javax.swing.JFrame {
                 .addGap(38, 38, 38))
         );
 
-        jLabel1.setFont(new java.awt.Font("Dialog", 3, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Dialog", 3, 18)); 
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("WELCOME TO OUR BIKE SERVICE CENTRE");
 
         CMobile.setBackground(new java.awt.Color(255, 255, 255));
-        CMobile.setFont(new java.awt.Font("Dialog", 0, 15)); // NOI18N
+        CMobile.setFont(new java.awt.Font("Dialog", 0, 15)); 
         CMobile.setForeground(new java.awt.Color(0, 0, 0));
 
         CUserName.setBackground(new java.awt.Color(255, 255, 255));
-        CUserName.setFont(new java.awt.Font("Dialog", 0, 15)); // NOI18N
+        CUserName.setFont(new java.awt.Font("Dialog", 0, 15)); 
         CUserName.setForeground(new java.awt.Color(0, 0, 0));
 
         CEmail.setBackground(new java.awt.Color(255, 255, 255));
-        CEmail.setFont(new java.awt.Font("Dialog", 0, 15)); // NOI18N
+        CEmail.setFont(new java.awt.Font("Dialog", 0, 15)); 
         CEmail.setForeground(new java.awt.Color(0, 0, 0));
         CEmail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,26 +92,26 @@ public class CostomerRegister extends javax.swing.JFrame {
         });
 
         Cpassword.setBackground(new java.awt.Color(255, 255, 255));
-        Cpassword.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        Cpassword.setFont(new java.awt.Font("Dialog", 0, 18)); 
         Cpassword.setForeground(new java.awt.Color(0, 0, 0));
 
-        jLabel2.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Dialog", 1, 14)); 
         jLabel2.setForeground(new java.awt.Color(255, 0, 0));
         jLabel2.setText("MOBILE NO :");
 
-        jLabel3.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Dialog", 1, 14)); 
         jLabel3.setForeground(new java.awt.Color(255, 0, 0));
         jLabel3.setText("EMAIL ID     :");
 
-        jLabel4.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Dialog", 1, 14));
         jLabel4.setForeground(new java.awt.Color(255, 0, 0));
         jLabel4.setText("USER NAME :");
 
-        jLabel5.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Dialog", 1, 14));
         jLabel5.setForeground(new java.awt.Color(255, 0, 0));
         jLabel5.setText("PASSWORD :");
 
-        Register.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        Register.setFont(new java.awt.Font("Dialog", 1, 14));
         Register.setForeground(new java.awt.Color(0, 0, 0));
         Register.setText("REGISTER");
         Register.addActionListener(new java.awt.event.ActionListener() {
@@ -108,7 +120,7 @@ public class CostomerRegister extends javax.swing.JFrame {
             }
         });
 
-        Reset.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        Reset.setFont(new java.awt.Font("Dialog", 1, 14));
         Reset.setForeground(new java.awt.Color(0, 0, 0));
         Reset.setText("RESET");
         Reset.addActionListener(new java.awt.event.ActionListener() {
@@ -192,54 +204,36 @@ public class CostomerRegister extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void CEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CEmailActionPerformed
-       
-    }//GEN-LAST:event_CEmailActionPerformed
+  
 
-    private void ResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResetActionPerformed
+    private void ResetActionPerformed(java.awt.event.ActionEvent evt) {
         CEmail.setText("");
         CMobile.setText("");
         CUserName.setText("");
         Cpassword.setText("");
-    }//GEN-LAST:event_ResetActionPerformed
+    }
 
-    private void RegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterActionPerformed
+    private void RegisterActionPerformed(java.awt.event.ActionEvent evt) {
         try {
             java.sql.Connection con = DbConnection.getConnection();
             String query = "insert into user values("+"\""+CUserName.getText()+"\""+","+"\""+Cpassword.getText()+"\""+","+"\""+CEmail.getText()+"\""+","+"\""+CMobile.getText()+"\""+");";
             java.sql.Statement st = con.createStatement();
             System.out.println(st.executeUpdate(query));
             SendMail.sendmail(CEmail.getText());
-            JOptionPane.showMessageDialog(this, "REGISTERD VERIFY YOUR MAIL");
+            JOptionPane.showMessageDialog(this, "REGISTERD,VERIFY YOUR MAIL");
             new CoustomerLogin().setVisible(true);
             this.dispose();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-    }//GEN-LAST:event_RegisterActionPerformed
+    }
 
-    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
-        // TODO add your handling code here:
+    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {
         new CoustomerLogin().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jLabel6MouseClicked
+    }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField CEmail;
-    private javax.swing.JTextField CMobile;
-    private javax.swing.JTextField CUserName;
-    private javax.swing.JPasswordField Cpassword;
-    private javax.swing.JButton Register;
-    private javax.swing.JButton Reset;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    // End of variables declaration//GEN-END:variables
+    
 }
